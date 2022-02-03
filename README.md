@@ -1,1 +1,1 @@
-# Adaptive_t-vMF_Dice_loss
+# Adaptive t-vMF Dice loss
