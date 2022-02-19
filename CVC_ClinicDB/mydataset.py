@@ -7,8 +7,8 @@ from PIL import Image, ImageOps
 
 class CVCClinicDB_Dataset(data.Dataset):
     def __init__(self, dataset_type='train', transform=None):
-        self.item_image = sorted(os.listdir("/media/echiechimachine/backup1/Dataset/CVC-ClinicDB/PNG/Original"))
-        self.item_gt = sorted(os.listdir("/media/echiechimachine/backup1/Dataset/CVC-ClinicDB/PNG/GroundTruth"))
+        self.item_image = sorted(os.listdir("Dataset/archive/PNG/Original"))
+        self.item_gt = sorted(os.listdir("Dataset/archive/PNG/GroundTruth"))
 
         self.transform = transform
 
@@ -25,8 +25,8 @@ class CVCClinicDB_Dataset(data.Dataset):
     def __getitem__(self, index):
         img_name = self.images[index]
         label_name = self.labels[index]
-        image = Image.open("/media/echiechimachine/backup1/Dataset/CVC-ClinicDB/PNG/Original/" + img_name).convert("RGB")
-        label = Image.open("/media/echiechimachine/backup1/Dataset/CVC-ClinicDB/PNG/GroundTruth/" + label_name).convert("L")
+        image = Image.open("Dataset/archive/PNG/Original/" + img_name).convert("RGB")
+        label = Image.open("Dataset/archive/PNG/GroundTruth/" + label_name).convert("L")
         label = np.array(label)
         mask = np.where(label>200, 1, 0)
         mask = Image.fromarray(np.uint8(mask))
