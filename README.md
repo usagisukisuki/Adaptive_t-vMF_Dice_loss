@@ -3,4 +3,6 @@ This repository is the official PyTorch implementation ''Adaptive t-vMF Dice Los
 
 ## Prerequirements
 
-## usage
+## Usage
+Training
+Testing
