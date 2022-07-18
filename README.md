@@ -21,13 +21,13 @@ xz -dc Dataset.tar.xz | tar xfv -
 ## Training
 If you prepared the dataset, you can directly run the following code to train the model.
 ```
-sh train.sh
+CVC_ClinicDB/sh train.sh
 ```
 
 ## Testing
 If you generated the pretrain model, you can run the following code to evaluate the model.
 ```
-sh teset.sh
+CVC_ClinicDB/sh test.sh
 ```
 
 ## Results and Visualization on Synaps multi-organ dataset
