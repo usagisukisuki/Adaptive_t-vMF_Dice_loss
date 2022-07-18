@@ -13,7 +13,27 @@ In this repository, we have prepared CVC-ClinicDB dataset and the code of our pa
 ## Preparation for CVC-ClinicDB dataset
 Please download from [[CVC-ClinicDB]](https://www.kaggle.com/datasets/balraj98/cvcclinicdb) and extract them under $/Dataset, and make them look like this:
 ```
-xz -dc Dataset.tar.xz | tar xfv -
+lite_hrnet
+├── configs
+├── models
+├── tools
+`── data
+    │── coco
+        │-- annotations
+        │   │-- person_keypoints_train2017.json
+        │   |-- person_keypoints_val2017.json
+        |-- person_detection_results
+        |   |-- COCO_val2017_detections_AP_H_56_person.json
+        │-- train2017
+        │   │-- 000000000009.jpg
+        │   │-- 000000000025.jpg
+        │   │-- 000000000030.jpg
+        │   │-- ...
+        `-- val2017
+            │-- 000000000139.jpg
+            │-- 000000000285.jpg
+            │-- 000000000632.jpg
+            │-- ...
 ```
 
 
