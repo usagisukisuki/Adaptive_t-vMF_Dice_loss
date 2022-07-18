@@ -30,7 +30,7 @@ If you generated the pretrain model, you can run the following code to evaluate 
 sh teset.sh
 ```
 
-Results and Visualization on Synaps multi-organ dataset
+## Results and Visualization on Synaps multi-organ dataset
 <div align="center">
   <img src="figs/git_fig2.png" width="100%">
 </div>
