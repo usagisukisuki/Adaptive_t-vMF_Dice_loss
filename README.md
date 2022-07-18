@@ -27,6 +27,11 @@ If you generated the pretrain model, you can run the following code to evaluate 
 sh teset.sh
 ```
 
+Results and Visualization on Synaps multi-organ dataset
+<div align="center">
+  <img src="figs/fig1.png" width="100%">
+</div>
+
 ## Citation
 ```
 @INPROCEEDINGS{9658801,
