@@ -7,6 +7,14 @@ Dice loss is widely used for medical image segmentation, and many improvement lo
 <br />
 In this repository, we have prepared CVCClinic-DB dataset and the code of our paper.
 
+## Preparation for iRPE dataset
+Download our google drive [[Drive]](https://drive.google.com/file/d/1CxxLRN1QUsZID85L1lAv3GnYWRauiYBW/view?usp=sharing)
+, and you can be decompressed this file to run the following code.
+```
+xz -dc Dataset.tar.xz | tar xfv -
+```
+
+
 ## Training
 If you prepared the dataset, you can directly run the following code to train the model.
 ```
