@@ -11,7 +11,7 @@ Dice loss is widely used for medical image segmentation, and many improvement lo
 In this repository, we have prepared CVC-ClinicDB dataset and the code of our paper.
 
 ## Preparation for CVC-ClinicDB dataset
-Download this link [[Drive]](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
+Download this link [[Link]](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 , and you can be decompressed this file to run the following code.
 ```
 xz -dc Dataset.tar.xz | tar xfv -
