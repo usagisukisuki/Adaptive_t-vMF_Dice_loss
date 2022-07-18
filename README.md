@@ -20,13 +20,13 @@ CVC_ClinicDB
     ├── archive
         ├── PNG
             ├── Original
-            |      ├── 1.png
-            |      ├── 2.png
-            |      ├── ...
+            |    ├── 1.png
+            |    ├── 2.png
+            |    ├── ...
             `── GroundTruth
-                  ├── 1.png
-                  ├── 2.png
-                  ├── ...
+                 ├── 1.png
+                 ├── 2.png
+                 ├── ...
 
 ```
 
