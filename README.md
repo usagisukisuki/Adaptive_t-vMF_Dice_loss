@@ -43,9 +43,9 @@ If you generated the pretrain model, you can run the following code to evaluate 
 sh test.sh
 ```
 
-## Results and Visualization on Synaps multi-organ dataset
+## Results and Visualization
 <div align="center">
-  <img src="figs/git_fig2.png" width="100%">
+  <img src="figs/git_fig3.png" width="100%">
 </div>
 
 ## Citation
