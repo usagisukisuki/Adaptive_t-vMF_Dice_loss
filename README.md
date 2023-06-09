@@ -10,7 +10,7 @@ Dice loss is widely used for medical image segmentation, and many improvement lo
 <br />
 In this repository, we have prepared CVC-ClinicDB dataset and the code of our paper.
 
-## Preparation for CVC-ClinicDB dataset
+## Preparation for preprocessing datasets
 Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under $/Dataset, and make them look like this:
 ```
 AdaptivTvmf
