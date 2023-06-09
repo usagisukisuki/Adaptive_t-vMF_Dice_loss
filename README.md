@@ -11,22 +11,13 @@ Dice loss is widely used for medical image segmentation, and many improvement lo
 In this repository, we have prepared CVC-ClinicDB dataset and the code of our paper.
 
 ## Preparation for CVC-ClinicDB dataset
-Please download from [[CVC-ClinicDB]](https://www.kaggle.com/datasets/balraj98/cvcclinicdb) and extract them under $/Dataset, and make them look like this:
+Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under $/Dataset, and make them look like this:
 ```
-CVC_ClinicDB
-├── train.sh
-├── ...
-`── Dataset
-    ├── archive
-        ├── PNG
-            ├── Original
-            |    ├── 1.png
-            |    ├── 2.png
-            |    ├── ...
-            `── GroundTruth
-                 ├── 1.png
-                 ├── 2.png
-                 ├── ...
+AdaptivTvmf
+├── CVC-ClinicDB.zip
+├── Kvasir-SEG.zip
+├── ACDC.zip
+`── Synapse.zip
 
 ```
 
