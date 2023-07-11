@@ -15,7 +15,9 @@ Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpA
 data
 ├── CVC-ClinicDB
     ├── datamodel
-    ├── 
+        ├── train_data_1.npy
+        ├── train_label_1.npy
+        ├── ...
 ├── Kvasir-SEG
 ├── ACDC
 `── Synapse
