@@ -93,7 +93,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='tvMF Dice loss')
     parser.add_argument('--classes', '-c', type=int, default=2)
     parser.add_argument('--batchsize', '-b', type=int, default=24)
-    parser.add_argument('--path', '-i', default='./data')
+    parser.add_argument('--path', '-i', default='./data/Kvasir-SEG')
     parser.add_argument('--out', '-o', type=str, default='result')
     parser.add_argument('--models', '-mo', type=str, default='unet')
     parser.add_argument('--gpu', '-g', type=str, default=-1)
