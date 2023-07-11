@@ -10,7 +10,7 @@ Dice loss is widely used for medical image segmentation, and many improvement lo
 <br />
 
 ## Preparation for preprocessing datasets
-Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under Dataset, and make them look like this:
+Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under "data", and make them look like this:
 ```
 data
 ├── CVC-ClinicDB
