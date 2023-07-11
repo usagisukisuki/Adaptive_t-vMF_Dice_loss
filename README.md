@@ -24,6 +24,8 @@ data
 
 ```
 
+## Pre-trained model for TransUNet and FCBFormer
+Please download pre-trained models for TransUNet and FCBFormer encoders from [[TransUNet]](https://github.com/Beckschen/TransUNet), and [[FCBFormer]](https://github.com/ESandML/FCBFormer).
 
 ## Training
 If you prepared the dataset, you can directly run the following code to train the model.
