@@ -12,11 +12,13 @@ Dice loss is widely used for medical image segmentation, and many improvement lo
 ## Preparation for preprocessing datasets
 Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under Dataset, and make them look like this:
 ```
-AdaptivTvmf
-├── CVC-ClinicDB.zip
-├── Kvasir-SEG.zip
-├── ACDC.zip
-`── Synapse.zip
+data
+├── CVC-ClinicDB
+    ├── datamodel
+    ├── 
+├── Kvasir-SEG
+├── ACDC
+`── Synapse
 
 ```
 
