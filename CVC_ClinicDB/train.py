@@ -107,6 +107,7 @@ if __name__ == '__main__':
     parser.add_argument('--path', '-i', default='./data')
     parser.add_argument('--out', '-o', type=str, default='result')
     parser.add_argument('--models', '-mo', type=str, default='unet')
+    parser.add_argument('--loss', '-lo', type=str, default='tvmf')
     parser.add_argument('--gpu', '-g', type=str, default=-1)
     parser.add_argument('--seed', '-s', type=int, default=0)
     args = parser.parse_args()
