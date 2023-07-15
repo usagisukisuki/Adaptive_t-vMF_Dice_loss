@@ -28,9 +28,15 @@ data
 Please download pre-trained models for TransUNet and FCBFormer encoders from [[TransUNet]](https://github.com/Beckschen/TransUNet), and [[FCBFormer]](https://github.com/ESandML/FCBFormer).
 
 ## Training
+### t-vMF Dice loss
 If you prepared the dataset, you can directly run the following code to train the model.
 ```
-sh train.sh
+python3 train.py -g 0 -o result -e 200 -b 24 -s 0 -mo unet -lo tvmf -c 2
+```
+### Adaptive t-vMF Dice loss
+If you prepared the dataset, you can directly run the following code to train the model.
+```
+python3 train.py -g 0 -o result -e 200 -b 24 -s 0 -mo unet -lo Atvmf -c 2
 ```
 
 ## Testing
