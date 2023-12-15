@@ -1,5 +1,5 @@
 # Adaptive t-vMF Dice Loss
-This repository is the official PyTorch implementation ''Adaptive t-vMF Dice Loss for Multi-class Medical Image Segmentation'' [[paper]](https://arxiv.org/pdf/2207.07842.pdf).
+This repository is the official PyTorch implementation ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' [[paper]](https://www.sciencedirect.com/science/article/pii/S0010482523011605).
 
 ## Introduction
 <div align="center">
