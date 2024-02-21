@@ -46,6 +46,18 @@ If you generated the pretrain model, you can run the following code to evaluate 
 sh test.sh
 ```
 
+## Using other loss functions
+Please use SegLoss:
+```
+SegLoss
+├── diceloss.py
+├── focal_tverskyloss.py
+├── noise_robust_diceloss.py
+├── ...
+
+```
+
+
 ## Results and Visualization
 <div align="center">
   <img src="figs/git_fig3.png" width="100%">
