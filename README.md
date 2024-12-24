@@ -1,5 +1,5 @@
 # :game_die: Adaptive t-vMF Dice Loss :game_die:
-[![Paper with Code](https://img.shields.io/badge/Paper%20with%20Code-Attention%20Is%20All%20You%20Need-blue)](https://paperswithcode.com/paper/attention-is-all-you-need)
+[![Paper with Code](https://img.shields.io/badge/Paper%20with%20Code-Link-blue)](https://paperswithcode.com/paper/<paper-title>)
 [![arXiv](https://img.shields.io/badge/State of the Art-2408.12406-b31b1b.svg)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb)
 [![arXiv](https://img.shields.io/badge/arXiv-2408.12406-b31b1b.svg)](https://paperswithcode.com/sota/medical-image-segmentation-on-automatic)
 
