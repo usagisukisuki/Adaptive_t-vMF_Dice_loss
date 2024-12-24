@@ -53,7 +53,7 @@ SegLoss
 
 ```
 
-## :game_die: Testing
+## :game_die: Inference
 If you generated the pretrain model, you can run the following code to evaluate the model.
 ```
 sh test.sh
