@@ -12,7 +12,7 @@ This repository is the official PyTorch implementation for our Computers in Biol
 - Our loss functions can achieve high performance in various type of datasets in spite of set only one parameter decided by human.
 
 
-## :game_die: Preparation for preprocessing datasets
+## :game_die: Datasets
 Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under "data", and make them look like this:
 ```
 data
@@ -27,7 +27,7 @@ data
 
 ```
 
-## :game_die: Pre-trained model for TransUNet and FCBFormer
+## :game_die: Checkpoints
 Please download pre-trained models for TransUNet and FCBFormer encoders from [[TransUNet]](https://github.com/Beckschen/TransUNet), and [[FCBFormer]](https://github.com/ESandML/FCBFormer).
 
 ## :game_die: Training
