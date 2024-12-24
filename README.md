@@ -1,6 +1,6 @@
 # :game_die: Adaptive t-vMF Dice Loss :game_die:
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pixels-together-strong-segmenting-unknown/anomaly-detection-on-road-anomaly)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pixels-together-strong-segmenting-unknown/anomaly-detection-on-road-anomaly)](https://paperswithcode.com/sota/medical-image-segmentation-on-automatic)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/anomaly-detection-on-lost-and-found)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unmasking-anomalies-in-road-scene/anomaly-detection-on-lost-and-found)](https://paperswithcode.com/sota/medical-image-segmentation-on-automatic)
 
 This repository is the official PyTorch implementation for our **Computers in Biology and Medicine (CBM)** paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' [[paper]](https://www.sciencedirect.com/science/article/pii/S0010482523011605) (**impact factor=7.7**).
 
