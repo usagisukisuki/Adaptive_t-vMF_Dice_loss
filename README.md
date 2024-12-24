@@ -1,12 +1,16 @@
 # Adaptive t-vMF Dice Loss
 This repository is the official PyTorch implementation for our Computers in Biology and Medicine (CBM) 2023 paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' [[paper]](https://www.sciencedirect.com/science/article/pii/S0010482523011605) (**impact factor=7.7**).
 
-## Introduction
+## Highlights
 <div align="center">
   <img src="figs/git_fig4.png" width="80%">
 </div>
-Dice loss is widely used for medical image segmentation, and many improved loss functions have been proposed. However, further Dice loss improvements are still possible. In this study, we reconsidered the use of Dice loss and discovered that Dice loss can be rewritten in the loss function using the cosine similarity through a simple equation transformation. Using this knowledge, we present a novel t-vMF Dice loss based on the t-vMF similarity instead of the cosine similarity. Based on the t-vMF similarity, our proposed Dice loss is formulated in a more compact similarity loss function than the original Dice loss. Furthermore, we present an effective algorithm that automatically determines the parameter 
- for the t-vMF similarity using a validation accuracy, called Adaptive t-vMF Dice loss. Using this algorithm, it is possible to apply more compact similarities for easy classes and wider similarities for difficult classes, and we are able to achieve adaptive training based on the accuracy of each class. We evaluated binary segmentation datasets of CVC-ClinicDB and Kvasir-SEG, and multi-class segmentation datasets of Automated Cardiac Diagnosis Challenge and Synapse multi-organ segmentation. Through experiments conducted on four datasets using a five-fold cross-validation, we confirmed that the Dice score coefficient (DSC) was further improved in comparison with the original Dice loss and other loss functions.
+
+- The Dice loss is able to rewrite in the loss function using the cosine similarity.
+- The cosine similarity had the most influence over the training of networks.
+- T-vMF Dice loss is formulated in a more compact similarity than the Dice loss.
+- Adaptive t-vMF Dice loss is able to use more compact similarities for easy classes and wider similarities for difficult classes.
+- Our loss functions can achieve high performance in various type of datasets in spite of set only one parameter decided by human.
 <br />
 <br />
 
