@@ -6,13 +6,11 @@ This repository is the official PyTorch implementation for our Computers in Biol
   <img src="figs/git_fig4.png" width="80%">
 </div>
 
-- The Dice loss is able to rewrite in the loss function using the cosine similarity.
-- The cosine similarity had the most influence over the training of networks.
-- T-vMF Dice loss is formulated in a more compact similarity than the Dice loss.
-- Adaptive t-vMF Dice loss is able to use more compact similarities for easy classes and wider similarities for difficult classes.
+- The Dice loss is able to rewrite in the loss function using the **cosine similarity**.
+- **T-vMF Dice loss** is formulated in a more compact similarity than the Dice loss.
+- **Adaptive t-vMF Dice loss** is able to use more compact similarities for easy classes and wider similarities for difficult classes.
 - Our loss functions can achieve high performance in various type of datasets in spite of set only one parameter decided by human.
-<br />
-<br />
+
 
 ## Preparation for preprocessing datasets
 Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under "data", and make them look like this:
