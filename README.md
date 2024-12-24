@@ -1,6 +1,7 @@
 # :game_die: Adaptive t-vMF Dice Loss :game_die:
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adaptive-t-vmf-dice-loss-for-multi-class/medical-image-segmentation-on-cvc-clinicdb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=adaptive-t-vmf-dice-loss-for-multi-class)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adaptive-t-vmf-dice-loss-for-multi-class/medical-image-segmentation-on-automatic)](https://paperswithcode.com/sota/medical-image-segmentation-on-automatic?p=adaptive-t-vmf-dice-loss-for-multi-class)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adaptive-t-vmf-dice-loss-for-multi-class/medical-image-segmentation-on-kvasir-seg)](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=adaptive-t-vmf-dice-loss-for-multi-class)
 
 This repository is the official PyTorch implementation for our **Computers in Biology and Medicine (CBM)** paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' (**impact factor=7.7**).
 
