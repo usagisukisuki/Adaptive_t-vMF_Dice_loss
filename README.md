@@ -64,7 +64,7 @@ sh test.sh
 We assessed 4 datasets and applied the Dice Score Coefficient (DSC) to evaluate the segmentation accuracy.
 |Loss|CVC-ClinicDB|Kvasior-SEG|ACDC|Synapse|
 |:---:|:---:|:---:|:---:|:---:|
-|CE|81.83|89.10|90.74|50.59|
+|Cross Entropy (CE)|81.83|89.10|90.74|50.59|
 |Dice|82.02|90.34|92.21|70.57|
 |CE+Dice|83.45|91.25|92.48|71.49|
 |Focal+Dice|82.25|90.19|92.32|70.55|
