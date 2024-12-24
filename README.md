@@ -1,5 +1,5 @@
 # :game_die: Adaptive t-vMF Dice Loss :game_die:
-This repository is the official PyTorch implementation for our Computers in Biology and Medicine (CBM) 2023 paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' [[paper]](https://www.sciencedirect.com/science/article/pii/S0010482523011605) (**impact factor=7.7**).
+This repository is the official PyTorch implementation for our **Computers in Biology and Medicine (CBM)** paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' [[paper]](https://www.sciencedirect.com/science/article/pii/S0010482523011605) (**impact factor=7.7**).
 
 ## :game_die: Highlights
 <div align="center">
@@ -61,6 +61,16 @@ sh test.sh
 
 
 ## :game_die: Results and Visualization
+|Loss|CVC-ClinicDB|Kvasior-SEG|ACDC|Synapse|
+|:---:|:---:|:---:|:---:|:---:|
+|CE|81.83|89.10|90.74|50.59|
+|Dice|82.02|90.34|92.21|70.57|
+|Generalized Dice|83.37|88.70|92.42|66.53|
+|Noise-robust Dice|83.14|90.34|92.40|64.74|
+|Focal Dice|84.38|90.98|92.82|68.97|
+|Focal-Tversky|83.39|90.61|92.44|64.41|
+|Adaptive t-VMF Dice|**88.68**|**92.24**|**74.22**|
+
 <div align="center">
   <img src="figs/git_fig3.png" width="100%">
 </div>
