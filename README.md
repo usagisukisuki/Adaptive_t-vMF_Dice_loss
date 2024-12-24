@@ -2,7 +2,9 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adaptive-t-vmf-dice-loss-for-multi-class/medical-image-segmentation-on-cvc-clinicdb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=adaptive-t-vmf-dice-loss-for-multi-class)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adaptive-t-vmf-dice-loss-for-multi-class/medical-image-segmentation-on-automatic)](https://paperswithcode.com/sota/medical-image-segmentation-on-automatic?p=adaptive-t-vmf-dice-loss-for-multi-class)
 
-This repository is the official PyTorch implementation for our **Computers in Biology and Medicine (CBM)** paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' [[paper]](https://www.sciencedirect.com/science/article/pii/S0010482523011605) (**impact factor=7.7**).
+This repository is the official PyTorch implementation for our **Computers in Biology and Medicine (CBM)** paper ''Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation'' (**impact factor=7.7**).
+
+[[`Paper`](https://www.sciencedirect.com/science/article/pii/S0010482523011605)][[`BibTeX`](#CitingADice)]
 
 ## :game_die: Highlights
 <div align="center">
@@ -81,7 +83,7 @@ We assessed 4 datasets and applied the Dice Score Coefficient (DSC) to evaluate 
   <img src="figs/git_fig3.png" width="100%">
 </div>
 
-## :game_die: Citation
+## <a name="CitingADice"></a>:game_die: Citation
 ```
 @article{kato2023adaptive,
   title={Adaptive t-vMF dice loss: An effective expansion of dice loss for medical image segmentation},
