@@ -61,6 +61,7 @@ sh test.sh
 
 
 ## :game_die: Results and Visualization
+We assessed 4 datasets and applied the Dice Score Coefficient (DSC) to evaluate the segmentation accuracy.
 |Loss|CVC-ClinicDB|Kvasior-SEG|ACDC|Synapse|
 |:---:|:---:|:---:|:---:|:---:|
 |CE|81.83|89.10|90.74|50.59|
@@ -71,7 +72,7 @@ sh test.sh
 |Noise-robust Dice|83.14|90.34|92.40|64.74|
 |Focal Dice|84.38|90.98|92.82|68.97|
 |Focal-Tversky|83.39|90.61|92.44|64.41|
-|Adaptive t-VMF Dice|**88.68**|**92.24**|**93.68**|**74.22**|
+|Adaptive t-VMF Dice (Ours)|**88.68**|**92.24**|**93.68**|**74.22**|
 
 <div align="center">
   <img src="figs/git_fig3.png" width="100%">
